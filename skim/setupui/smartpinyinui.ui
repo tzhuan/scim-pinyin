@@ -61,7 +61,7 @@
                                             <cstring>kcfg__IMEngine_Pinyin_AutoCombinePhrase</cstring>
                                         </property>
                                         <property name="text">
-                                            <string>Auto &amp;combin phrase</string>
+                                            <string>Auto &amp;combine phrase</string>
                                         </property>
                                     </widget>
                                     <widget class="QCheckBox">
