@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: James Su <suzhe@tsinghua.org.cn>\n"
-"POT-Creation-Date: 2005-08-07 00:00+0800\n"
+"POT-Creation-Date: 2005-08-23 09:09+0800\n"
 "PO-Revision-Date: 2005-12-13 01:54+0100\n"
 "Last-Translator: Federico Zenith <zenith@chemeng.ntnu.no>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +34,8 @@ msgid "Full/Half Letter"
 msgstr "Lettera piena/mezza"
 
 #: src/scim_pinyin_imengine.cpp:123
-msgid "The input mode of the puncutations. Click to toggle between half and full."
+msgid ""
+"The input mode of the puncutations. Click to toggle between half and full."
 msgstr ""
 "Il metodo di inserimento della punteggiatura. Fai clic per commutare tra "
 "mezza e piena."
@@ -41,6 +43,10 @@ msgstr ""
 #: src/scim_pinyin_imengine.cpp:124
 msgid "Full/Half Punct"
 msgstr "Punto pieno/mezzo"
+
+#: src/scim_pinyin_imengine.cpp:435 src/scim_pinyin_imengine_setup.cpp:67
+msgid "Smart Pinyin"
+msgstr "Pinyin intelligenti"
 
 #: src/scim_pinyin_imengine.cpp:550
 msgid "Copyright (C) 2002, 2003 James Su <suzhe@tsinghua.org.cn>"
@@ -76,7 +82,8 @@ msgstr "    Commuta tra le modalità a larghezza delle lettere piena o mezza."
 
 #: src/scim_pinyin_imengine.cpp:583
 msgid "    Switch between full/half width punctuation mode."
-msgstr "    Commuta tra le modalità a larghezza della punteggiatura piena o mezza."
+msgstr ""
+"    Commuta tra le modalità a larghezza della punteggiatura piena o mezza."
 
 #: src/scim_pinyin_imengine.cpp:585
 msgid "    Switch between Simplified/Traditional Chinese mode."
@@ -152,13 +159,10 @@ msgstr ""
 "    questa modalità, riferisciti a\n"
 "    /usr/share/scim/pinyin/special_table"
 
-#: src/scim_pinyin_imengine_setup.cpp:67
-msgid "Smart Pinyin"
-msgstr "Pinyin intelligenti"
-
 #: src/scim_pinyin_imengine_setup.cpp:72
 msgid "An IMEngine Module for Chinese which utilizes pinyin input method."
-msgstr "Un modulo IMEngine per il cinese che usa il metodo di inserimento pinyin."
+msgstr ""
+"Un modulo IMEngine per il cinese che usa il metodo di inserimento pinyin."
 
 #: src/scim_pinyin_imengine_setup.cpp:147
 msgid "A_mbiguities"
@@ -229,8 +233,8 @@ msgid ""
 "The key events to switch full/half width letter input mode. Click on the "
 "button on the right to edit it."
 msgstr ""
-"Le combinazioni di tasti per passare tra le modalità delle lettere a larghezza "
-"piena o mezza. Fai clic sul pulsante a destra per modificarla."
+"Le combinazioni di tasti per passare tra le modalità delle lettere a "
+"larghezza piena o mezza. Fai clic sul pulsante a destra per modificarla."
 
 #: src/scim_pinyin_imengine_setup.cpp:201
 msgid "_Mode switch:"
@@ -509,4 +513,3 @@ msgid ""
 msgstr ""
 "Le opzioni seguenti controllano il comportamento ambiguo dell'algoritmo di "
 "corrispondenza pinyin. Attivale, se vuoi, se non riesci a distinguerli."
-

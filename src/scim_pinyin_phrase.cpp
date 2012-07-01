@@ -26,6 +26,8 @@
 #define Uses_SCIM_CONFIG_PATH
 #define Uses_SCIM_LOOKUP_TABLE
 
+#include <cstring>
+
 #include <scim.h>
 #include "scim_pinyin_private.h"
 #include "scim_phrase.h"
@@ -118,20 +120,20 @@ PinyinPhraseLib::input_pinyin_lib (const PinyinValidator &validator, std::istrea
 
 	//check header
 	is.getline (header, 40);
-	if (strncmp (header,
+	if (std::strncmp (header,
 		scim_pinyin_lib_text_header,
-		strlen (scim_pinyin_lib_text_header)) == 0) {
+		std::strlen (scim_pinyin_lib_text_header)) == 0) {
 		binary = false;
-	} else if (strncmp (header,
+	} else if (std::strncmp (header,
 		scim_pinyin_lib_binary_header,
-		strlen (scim_pinyin_lib_binary_header)) == 0) {
+		std::strlen (scim_pinyin_lib_binary_header)) == 0) {
 		binary = true;
 	} else {
 		return false;
 	}
 	
 	is.getline (header, 40);
-	if (strncmp (header, scim_pinyin_lib_version, strlen (scim_pinyin_lib_version)) != 0)
+	if (std::strncmp (header, scim_pinyin_lib_version, std::strlen (scim_pinyin_lib_version)) != 0)
 		return false;
 
 	unsigned char bytes [4];
@@ -268,21 +270,21 @@ PinyinPhraseLib::input_indexes (std::istream &is)
 
 	//check index file
 	is.getline (header, 40);
-	if (strncmp (header,
+	if (std::strncmp (header,
 		scim_pinyin_phrase_idx_lib_text_header,
-		strlen (scim_pinyin_phrase_idx_lib_text_header)) == 0) {
+		std::strlen (scim_pinyin_phrase_idx_lib_text_header)) == 0) {
 		binary = false;
-	} else if (strncmp (header,
+	} else if (std::strncmp (header,
 		scim_pinyin_phrase_idx_lib_binary_header,
-		strlen (scim_pinyin_phrase_idx_lib_binary_header)) == 0) {
+		std::strlen (scim_pinyin_phrase_idx_lib_binary_header)) == 0) {
 		binary = true;
 	} else {
 		return false;
 	}
 
 	is.getline (header, 40);
-	if (strncmp (header, scim_pinyin_phrase_idx_lib_version,
-					strlen (scim_pinyin_phrase_idx_lib_version)) != 0)
+	if (std::strncmp (header, scim_pinyin_phrase_idx_lib_version,
+					std::strlen (scim_pinyin_phrase_idx_lib_version)) != 0)
 		return false;
 
 	unsigned char bytes [8];

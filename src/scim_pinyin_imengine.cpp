@@ -210,7 +210,7 @@ PinyinFactory::init ()
           false,  false,  false,  false,
           false,  false,  false };
 
-    char *amb_names [SCIM_PINYIN_AmbLast + 2] =
+    const char *amb_names [SCIM_PINYIN_AmbLast + 2] =
         { "Any",  "ZhiZi","ChiCi","ShiSi",
           "NeLe", "LeRi", "FoHe", "AnAng",
           "EnEng","InIng", 0};

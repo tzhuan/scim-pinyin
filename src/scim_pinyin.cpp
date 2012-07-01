@@ -28,6 +28,7 @@
 #define Uses_SCIM_CONFIG_PATH
 #define Uses_SCIM_LOOKUP_TABLE
 
+#include <cstring>
 #include <scim.h>
 #include "scim_pinyin.h"
 
@@ -684,7 +685,7 @@ PinyinValidator::PinyinValidator (const PinyinTable *table)
 void
 PinyinValidator::initialize (const PinyinTable *table)
 {
-    memset (m_bitmap, 0, sizeof (m_bitmap));
+    std::memset (m_bitmap, 0, sizeof (m_bitmap));
 
     if (!table || !table->size()) return;
 

@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: James Su <suzhe@tsinghua.org.cn>\n"
-"POT-Creation-Date: 2005-08-07 00:00+0800\n"
+"POT-Creation-Date: 2005-08-23 09:09+0800\n"
 "PO-Revision-Date: 2007-05-20 12:49+0200\n"
 "Last-Translator: Ronald Stroethoff <stroet43@zonnet.nl>\n"
 "Language-Team: Nederlands\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,23 +20,34 @@ msgstr ""
 
 #: src/scim_pinyin_imengine.cpp:120
 msgid "The status of the current input method. Click to change it."
-msgstr "De status van de nu gebruikte invoer-methode. Klik hierop om deze te veranderen."
+msgstr ""
+"De status van de nu gebruikte invoer-methode. Klik hierop om deze te "
+"veranderen."
 
 #: src/scim_pinyin_imengine.cpp:121
 msgid "The input mode of the letters. Click to toggle between half and full."
-msgstr "Invoer-methode voor Latijnse letters. Klik hier om te wisselen tussen volle en halve letterbreedte."
+msgstr ""
+"Invoer-methode voor Latijnse letters. Klik hier om te wisselen tussen volle "
+"en halve letterbreedte."
 
 #: src/scim_pinyin_imengine.cpp:122
 msgid "Full/Half Letter"
 msgstr "_Letters in volle/halve breedte"
 
 #: src/scim_pinyin_imengine.cpp:123
-msgid "The input mode of the puncutations. Click to toggle between half and full."
-msgstr "Invoer-methode voor leestekens.Klik hier om te wisselen tussen volle en halve breedte."
+msgid ""
+"The input mode of the puncutations. Click to toggle between half and full."
+msgstr ""
+"Invoer-methode voor leestekens.Klik hier om te wisselen tussen volle en "
+"halve breedte."
 
 #: src/scim_pinyin_imengine.cpp:124
 msgid "Full/Half Punct"
 msgstr "Leesteken in volle/halve breedte"
+
+#: src/scim_pinyin_imengine.cpp:435 src/scim_pinyin_imengine_setup.cpp:67
+msgid "Smart Pinyin"
+msgstr "Intelligent Pinyin"
 
 #: src/scim_pinyin_imengine.cpp:550
 msgid "Copyright (C) 2002, 2003 James Su <suzhe@tsinghua.org.cn>"
@@ -139,16 +151,12 @@ msgstr ""
 "\n"
 "  i:\n"
 "    Naar de invoer-methode voor speciale tekens. Voorbeelden:\n"
-"      Met »idate« wordt de huidige datum ingevoerd. "
-"      Met »imath« kunnen de meestgebruikte \n"
+"      Met »idate« wordt de huidige datum ingevoerd.       Met »imath« kunnen "
+"de meestgebruikte \n"
 "      wiskunde symbolen gekozen worden.\n"
 "    Voor verdere informatie over deze modus\n"
 "    Lees:\n"
 "    /usr/share/scim/pinyin/special_table"
-
-#: src/scim_pinyin_imengine_setup.cpp:67
-msgid "Smart Pinyin"
-msgstr "Intelligent Pinyin"
 
 #: src/scim_pinyin_imengine_setup.cpp:72
 msgid "An IMEngine Module for Chinese which utilizes pinyin input method."
@@ -206,7 +214,9 @@ msgstr "Kies een toets-combinatie voor leetekens in volle breedte"
 msgid ""
 "The key events to switch full/half width punctuation input mode. Click on "
 "the button on the right to edit it."
-msgstr "Toets-combinatie, waarmee tussen de invoer van leestekens in volle en halve breedte gewisseld wordt. Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"Toets-combinatie, waarmee tussen de invoer van leestekens in volle en halve "
+"breedte gewisseld wordt. Klik om te veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:184
 msgid "Full width _letter:"
@@ -220,7 +230,9 @@ msgstr "Kies de toets-combinatie voor letters in volle breedte"
 msgid ""
 "The key events to switch full/half width letter input mode. Click on the "
 "button on the right to edit it."
-msgstr "Toets-combinatie, waarmee tussen de invoer van letters in volle en halve breedte gewisseld word. Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"Toets-combinatie, waarmee tussen de invoer van letters in volle en halve "
+"breedte gewisseld word. Klik om te veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:201
 msgid "_Mode switch:"
@@ -234,7 +246,9 @@ msgstr "Kies de toets-combinatie voor de modus-wissel"
 msgid ""
 "The key events to change current input mode. Click on the button on the "
 "right to edit it."
-msgstr "Toets-combinatie, waarmee de huidige invoer-mode wordt gewisseld. Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"Toets-combinatie, waarmee de huidige invoer-mode wordt gewisseld. Klik om te "
+"veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:221
 msgid "_Chinese mode switch:"
@@ -248,7 +262,9 @@ msgstr "Kies de toets-combinatie voor het wisselen naar de Chinese modus"
 msgid ""
 "The key events to change current Chinese input mode. .Click on the button on "
 "the right to edit it"
-msgstr "Toetscombinatie voor het wisselen van de Chinese invoer-methode (versimpeld/traditioneel/gemengd). Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"Toetscombinatie voor het wisselen van de Chinese invoer-methode (versimpeld/"
+"traditioneel/gemengd). Klik om te veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:238
 msgid "Page _up:"
@@ -262,7 +278,9 @@ msgstr "Kies de toets-combinatie voor de page up-toets"
 msgid ""
 "The key events to page up the lookup table. Click on the button on the right "
 "to edit it."
-msgstr "De toetscombinatie waarmee de voorgaande pagina uit de opzoek-tabel getoond word. Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"De toetscombinatie waarmee de voorgaande pagina uit de opzoek-tabel getoond "
+"word. Klik om te veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:255
 msgid "Page dow_n:"
@@ -270,13 +288,17 @@ msgstr "Volgende scherm:"
 
 #: src/scim_pinyin_imengine_setup.cpp:257
 msgid "Select page down keys"
-msgstr "Kies de toetscombinatie voor het tonen van de volgende pagina van de opzoek-tabel."
+msgstr ""
+"Kies de toetscombinatie voor het tonen van de volgende pagina van de opzoek-"
+"tabel."
 
 #: src/scim_pinyin_imengine_setup.cpp:259
 msgid ""
 "The key events to page down the lookup table. Click on the button on the "
 "right to edit it."
-msgstr "De toets-combinatie waarmee de volgende pagina van de opzoek-tabel getoond word, Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"De toets-combinatie waarmee de volgende pagina van de opzoek-tabel getoond "
+"word, Klik om te veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:272
 msgid "_Disable phrase:"
@@ -290,7 +312,9 @@ msgstr "Kies de toetscombinatie voor het uitschakelen van een uitdrukking"
 msgid ""
 "The key events to disable the currently selected user defined phrase. Click "
 "on the button on the right to edit it."
-msgstr "De toetscombinatie, waarmee de nu ingevoerde eigen uitdrukking uitgeschakeld wordt. Klik om te veranderen op de rechter muisknop."
+msgstr ""
+"De toetscombinatie, waarmee de nu ingevoerde eigen uitdrukking uitgeschakeld "
+"wordt. Klik om te veranderen op de rechter muisknop."
 
 #: src/scim_pinyin_imengine_setup.cpp:398
 msgid "Input"
@@ -368,51 +392,70 @@ msgstr "toetsenbord"
 msgid ""
 "If this option is checked, the user pinyin and phrase data will be stored in "
 "binary format. This will increase the loading speed."
-msgstr "Wanneer deze optie is gekozen, wordt de door de eigen gedefineerde pinyin en de eigen gedefineerde uitdrukkingen in binair-formaat opgeslagen, dit verhoogt de laad-snelheid."
+msgstr ""
+"Wanneer deze optie is gekozen, wordt de door de eigen gedefineerde pinyin en "
+"de eigen gedefineerde uitdrukkingen in binair-formaat opgeslagen, dit "
+"verhoogt de laad-snelheid."
 
 #: src/scim_pinyin_imengine_setup.cpp:782
 msgid ""
 "If this option is checked, the inputed phrases will be combined to one "
 "longer phrase automatically."
-msgstr "Wanneer deze optie is gekozen, worden de ingevoerde uitdrukkingen automatisch in een langere uitdrukking samengevoegd."
+msgstr ""
+"Wanneer deze optie is gekozen, worden de ingevoerde uitdrukkingen "
+"automatisch in een langere uitdrukking samengevoegd."
 
 #: src/scim_pinyin_imengine_setup.cpp:787
 msgid ""
 "If this option is checked, the preedit string will be filled up "
 "automatically, by a kind of smart matching algorithm."
-msgstr "Wanneer deze optie is gekozen, worden onvolledige tekenreeksen door een intelligent algoritme aangevuld."
+msgstr ""
+"Wanneer deze optie is gekozen, worden onvolledige tekenreeksen door een "
+"intelligent algoritme aangevuld."
 
 #: src/scim_pinyin_imengine_setup.cpp:792
 msgid ""
 "If this option is checked, the phrases which are longer than the inputed "
 "keys can also be matched. This option is valid only when \"Auto combine "
 "phrase\" is checked."
-msgstr "Wanneer deze optie is gekozen, kunnen ook uitdrukkingen gekozen worden, die langer dan de ingevoerde tekenreeks zijn. Dit is alleen mogelijk, wanneer »automatisch combineren« ingeschakeld is."
+msgstr ""
+"Wanneer deze optie is gekozen, kunnen ook uitdrukkingen gekozen worden, die "
+"langer dan de ingevoerde tekenreeks zijn. Dit is alleen mogelijk, wanneer "
+"»automatisch combineren« ingeschakeld is."
 
 #: src/scim_pinyin_imengine_setup.cpp:799
 msgid ""
 "If this option is checked, the lookup table will be always shown when there "
 "are any candidate phrases."
-msgstr "Wanneer deze optie is gekozen, wordt de opzoek-tabel altijd getoond, zolang tenminste nog een uitdrukking uitgekozen kan worden."
+msgstr ""
+"Wanneer deze optie is gekozen, wordt de opzoek-tabel altijd getoond, zolang "
+"tenminste nog een uitdrukking uitgekozen kan worden."
 
 #: src/scim_pinyin_imengine_setup.cpp:804
 msgid ""
 "If this option is checked, all inputed keys will be shown. This option is "
 "valid only when \"Auto fill preedit\" is checked."
-msgstr "Wanneer deze optie is gekozen, worden alle ingevoerde tekens getoond. Dit is alleen mogelijk, wanneer »automatisch aanvullen« ingeschakeld is."
+msgstr ""
+"Wanneer deze optie is gekozen, worden alle ingevoerde tekens getoond. Dit is "
+"alleen mogelijk, wanneer »automatisch aanvullen« ingeschakeld is."
 
 #: src/scim_pinyin_imengine_setup.cpp:810
 msgid ""
 "If this option is checked, the phrase library will be adjusted dynamically "
 "according to the inputed contents. The changed part of the phrase library "
 "will be stored into local files owned by the user."
-msgstr "Wanneer deze optie is gekozen, wordt de bibiotheek automatisch bijgewerkt met de ingevoerde uitdrukkingen. De veranderde delen van de bibiotheek worden in lokale bestanden bewaard die bij de gebruiker horen."
+msgstr ""
+"Wanneer deze optie is gekozen, wordt de bibiotheek automatisch bijgewerkt "
+"met de ingevoerde uitdrukkingen. De veranderde delen van de bibiotheek "
+"worden in lokale bestanden bewaard die bij de gebruiker horen."
 
 #: src/scim_pinyin_imengine_setup.cpp:817
 msgid ""
 "The maxmium length of the custom phrases created by user. Those phrases will "
 "be created automatically when user inputs text."
-msgstr "De maximale lengte van de eigen ingevoerde uitdrukkingen. Deze uitdrukkingen worden automatisch toegevoegd, wanneer de gebruiker tekst invoert."
+msgstr ""
+"De maximale lengte van de eigen ingevoerde uitdrukkingen. Deze uitdrukkingen "
+"worden automatisch toegevoegd, wanneer de gebruiker tekst invoert."
 
 #: src/scim_pinyin_imengine_setup.cpp:822
 msgid "The maxmium length of the preedit string."
@@ -422,19 +465,26 @@ msgstr "De maximale lengte der ingevoerde tekenreeks voor de omzetting."
 msgid ""
 "The level of the smart matching algorithm. The larger the more accurate but "
 "slower."
-msgstr "Het intelligentie nivo, waarmee het vergelijkings-algorithme werkt. Een hoger nivo werkt nauwkeuriger maar langzamer."
+msgstr ""
+"Het intelligentie nivo, waarmee het vergelijkings-algorithme werkt. Een "
+"hoger nivo werkt nauwkeuriger maar langzamer."
 
 #: src/scim_pinyin_imengine_setup.cpp:829
 msgid ""
 "The size of the burst stack. Newly inputed phrases will be put into the "
 "burst stack. The phrases in this stack have higher priority than others."
-msgstr "Grote van tussengeheugen. Nieuw ingevoerde uitdrukkingen worden in het tussengeheugen opgeslagen. De uitdrukkingen in het tussengeheugen hebben een hogere prioriteit dan andere uitdrukkingen."
+msgstr ""
+"Grote van tussengeheugen. Nieuw ingevoerde uitdrukkingen worden in het "
+"tussengeheugen opgeslagen. De uitdrukkingen in het tussengeheugen hebben een "
+"hogere prioriteit dan andere uitdrukkingen."
 
 #: src/scim_pinyin_imengine_setup.cpp:835
 msgid ""
 "The sensitivity of the dynamic adjusting algorithm. The larger the more "
 "sensitive."
-msgstr "De gevoeligheid van de dynamische aanpassings-algorithme. Bij een hoger nivo is de aanpassing gevoeliger."
+msgstr ""
+"De gevoeligheid van de dynamische aanpassings-algorithme. Bij een hoger nivo "
+"is de aanpassing gevoeliger."
 
 #: src/scim_pinyin_imengine_setup.cpp:840
 msgid "The period in seconds to save the user data."
@@ -444,19 +494,23 @@ msgstr "Wachttijd voor het automatisch opslaan, in sekonde."
 msgid ""
 "If this option is checked, the tone information will be used in matching "
 "pinyin key."
-msgstr "Wanneer deze optie is gekozen, wordt de informatie over pinyin-tonen gebruikt om het karakter te vinden."
+msgstr ""
+"Wanneer deze optie is gekozen, wordt de informatie over pinyin-tonen "
+"gebruikt om het karakter te vinden."
 
 #: src/scim_pinyin_imengine_setup.cpp:849
 msgid ""
 "If this option is checked, the pinyin keys which only have initial part "
 "(Sheng Mu) will be allowed. "
 msgstr ""
-"Wanneer deze optie is gekozen, is het toegestaan, om alleen de eerste lettergreep "
-"(Sheng Mu) in pinyin in te voeren. "
+"Wanneer deze optie is gekozen, is het toegestaan, om alleen de eerste "
+"lettergreep (Sheng Mu) in pinyin in te voeren. "
 
 #: src/scim_pinyin_imengine_setup.cpp:854
 msgid ""
 "The following options control the ambiguous behaviour of the pinyin matching "
 "algorithm. Turn on them as you wish, if you can't distinguish between them."
-msgstr "De volgende opties controleren, welke lettergrepen door het pinyin-keuze-algorithme gelijk behandeld moeten worden. Kies de lettergrepen, waartussen U nooit onderscheid kan maken."
-
+msgstr ""
+"De volgende opties controleren, welke lettergrepen door het pinyin-keuze-"
+"algorithme gelijk behandeld moeten worden. Kies de lettergrepen, waartussen "
+"U nooit onderscheid kan maken."
