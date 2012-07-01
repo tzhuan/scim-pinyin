@@ -15,7 +15,9 @@ AM_CONFIG_HEADER([config.h])
 
 # Init gettext
 ALL_LINGUAS="zh_CN zh_TW ko ja de fr it nl"
-AM_GNU_GETTEXT
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION(0.14)
+
 
 # Init libtool
 AC_LIBTOOL_WIN32_DLL
@@ -119,10 +121,8 @@ SCIM_PINYIN_DATADIR=$SCIM_DATADIR/pinyin
 AC_SUBST(SCIM_PINYIN_DATADIR)
 
 AC_CONFIG_FILES([Makefile
-                 m4/Makefile
                  src/Makefile
-		 data/Makefile
-                 intl/Makefile
+				 data/Makefile
                  po/Makefile.in
                  scim-pinyin.spec])
 
